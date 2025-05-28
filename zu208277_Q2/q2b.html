@@ -22,5 +22,50 @@
     </ul>
   </nav>
 
+  <main>
+    <h2>Announcements</h2>
+    <h3>Create Announcement</h3>
+  
+    <form
+      action="https://students.open.ac.uk/mct/tt284/reflect/reflect.php"
+      method="post"
+      enctype="multipart/form-data"
+    >
+      <input
+        type="hidden"
+        name="SessionIdentifier"
+        value="db34-af22-bcda6836-8070"
+      />
+  
+      <label for="title">Title (Max 10 words):</label>
+      <input type="text" id="title" name="title" required />
+  
+      <label for="sender">Sender:</label>
+      <input type="text" id="sender" name="sender" required />
+  
+      <label for="attachment">Attachment</label>
+      <input type="file" id="attachment" name="attachment" />
+  
+      <label for="send-date-time">Send Date / Time:</label>
+      <input
+        type="datetime-local"
+        id="send-date-time"
+        name="send-date-time"
+      />
+  
+      <label for="priority">Priority:</label>
+      <select id="priority" name="priority">
+        <option value="low">Low</option>
+        <option value="normal" selected>Normal</option>
+        <option value="high">High</option>
+      </select>
+  
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="6" required></textarea>
+  
+      <button type="submit">Create</button>
+    </form>
+  </main>
+  
 </body>
 </html>

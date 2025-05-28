@@ -29,3 +29,40 @@ h1 {
   text-decoration: none;
   font-weight: bold;
 }
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+input, textarea, select, button {
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 1.5rem;
+  background-color: #004080;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0059b3;
+}

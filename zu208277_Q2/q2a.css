@@ -6,9 +6,9 @@ body {
 }
 
 h1 {
-  text-align: center;
-  margin-top: 1rem;
-}
+    text-align: center;
+    margin-top: 1rem;
+  }
 
 .navbar {
   background-color: #004080;
@@ -29,6 +29,17 @@ h1 {
   text-decoration: none;
   font-weight: bold;
 }
+
+h2 {
+    text-align: center;
+    margin-top: 1rem;
+    text-decoration: underline;
+  }
+
+h3 {
+    text-align: center;
+    margin-top: 1rem;
+  }
 
 main {
   max-width: 800px;
@@ -65,4 +76,12 @@ button {
 
 button:hover {
   background-color: #0059b3;
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #e0e0e0;
+  border-top: 1px solid #ccc;
 }
